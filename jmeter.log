@@ -1,0 +1,12 @@
+2023-11-13 14:27:14,431 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-11-13 14:27:14,445 INFO o.a.j.JMeter: Loading user properties from: C:\Users\lenovo\Desktop\apache-jmeter-5.0\apache-jmeter-5.0\bin\user.properties
+2023-11-13 14:27:14,446 INFO o.a.j.JMeter: Loading system properties from: C:\Users\lenovo\Desktop\apache-jmeter-5.0\apache-jmeter-5.0\bin\system.properties
+2023-11-13 14:27:14,447 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Unknown arg: C:\Users\lenovo\Desktop\Script.jmx
+	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:829) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.JMeter.start(JMeter.java:453) [ApacheJMeter_core.jar:5.0 r1840935]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:245) [ApacheJMeter.jar:5.0 r1840935]
